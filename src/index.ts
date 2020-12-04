@@ -21,9 +21,9 @@ export interface CardData {
  * CardData
  */
 @Plugin({
-  pluginName: 'AppleWalletNg',
-  plugin: 'cordova-apple-wallet-ng',
-  pluginRef: 'AppleWalletNg',
+  pluginName: 'AppleWallet',
+  plugin: 'cordova-apple-wallet',
+  pluginRef: 'AppleWallet',
   repo: 'https://github.com/cmgustavo/cordova-apple-wallet',
   platforms: ['iOS'],
 })
