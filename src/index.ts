@@ -57,4 +57,14 @@ export class AppleWalletNg extends IonicNativePlugin {
   completeAddPaymentPass(data: EncryptedCardData): Promise<any> {
     return;
   }
+
+  /**
+   * Check paired devices by suffix.
+   * @param {string} data
+   * @return {Promise<any>}
+   */
+  @Cordova()
+  checkPairedDevicesBySuffix(data: string): Promise<any> {
+    return;
+  }
 }

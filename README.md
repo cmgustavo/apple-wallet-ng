@@ -73,3 +73,15 @@ this.appleWallet.completeAddPaymentPass(data: encryptedCardData)
    // PKAddPaymentPassViewController will be dismissed
  });
 ```
+
+### checkPairedDevicesBySuffix
+
+```typescript
+this.appleWallet.checkPairedDevicesBySuffix(data: string)
+ .then((res: any) => {
+   // Expect res to be string
+  })
+ .catch((err) => {
+   // Error and can not get paired devices, or something wrong happend
+ });
+```
