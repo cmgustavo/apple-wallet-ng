@@ -67,4 +67,15 @@ export class AppleWalletNg extends IonicNativePlugin {
   checkPairedDevicesBySuffix(data: string): Promise<any> {
     return;
   }
+
+  /**
+   * graph request
+   * @param {string} data
+   * @return {Promise<any>}
+   */
+  @Cordova()
+  graphRequest(data: any): Promise<any> {
+    return;
+  }
+
 }
