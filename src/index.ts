@@ -74,7 +74,7 @@ export class AppleWalletNg extends IonicNativePlugin {
    * @return {Promise<any>}
    */
   @Cordova()
-  graphRequest(data: any): Promise<any> {
+  graphRequest(headers: any, json: any): Promise<any> {
     return;
   }
 
