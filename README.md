@@ -79,9 +79,21 @@ this.appleWallet.completeAddPaymentPass(data: encryptedCardData)
 ```typescript
 this.appleWallet.checkPairedDevicesBySuffix(data: string)
  .then((res: any) => {
-   // Expect res to be string
+   // Expect res to be any
   })
  .catch((err) => {
    // Error and can not get paired devices, or something wrong happend
+ });
+```
+
+### graphRequest
+
+```typescript
+this.appleWallet.graphRequest(headers, json, success, error)
+ .then((res: any) => {
+   // Expect res to be any
+  })
+ .catch((err) => {
+   // Error and can not get grapthRequest, or something wrong happend
  });
 ```
